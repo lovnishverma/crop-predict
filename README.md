@@ -157,7 +157,7 @@ numpy>=1.24
 ## 🙋 Author
 
 **Lovnish Verma**
-Project Engineer & Faculty, NIELIT Ropar (Deemed University), Punjab
+Project Engineer, NIELIT Ropar (Deemed University), Punjab
 
 [![GitHub](https://img.shields.io/badge/GitHub-lovnishverma-black?logo=github)](https://github.com/lovnishverma)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-lovnishverma-blue?logo=linkedin)](https://linkedin.com/in/lovnishverma)
