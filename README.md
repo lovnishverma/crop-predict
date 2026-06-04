@@ -13,7 +13,7 @@ A Flask web application that predicts the most suitable crop to grow based on so
 
 CropSense takes 11 soil parameters as input and recommends the most suitable crop using a **Logistic Regression** model trained on the [Crop dataset](https://raw.githubusercontent.com/lovnishverma/datasets/refs/heads/main/Crop.csv). It also returns the **top-3 predictions with confidence percentages**.
 
-This project was developed as a teaching artifact for the **M.Tech Artificial Intelligence** programme at **NIELIT Ropar**, demonstrating the end-to-end ML workflow: data → model → deployment.
+This project was developed as a teaching artifact for the **IndiaAI Foundations of Artificial Intelligence** programme at **NIELIT Ropar**, demonstrating the end-to-end ML workflow: data → model → deployment.
 
 ---
 
