@@ -172,4 +172,4 @@ This project is licensed under the MIT License.
 
 ---
 
-> Built for M.Tech AI students at NIELIT Ropar · No brainrot. Just facts. 🌾
+> Built for IndiaAI students at NIELIT Ropar · No brainrot. Just facts. 🌾
