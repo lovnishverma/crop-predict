@@ -40,6 +40,7 @@ crop-predict/
 ├── classification.ipynb            # Model training notebook (Colab)
 ├── crop_recommendation_model.joblib  # Saved trained model
 ├── requirements.txt
+├── README.md                          # This File (Documentation)
 ├── static/
 │   └── css/                        # Stylesheets
 └── templates/
