@@ -4,6 +4,8 @@ emoji: 👀
 colorFrom: blue
 colorTo: pink
 sdk: docker
+license: mit
+short_description: CropSense — Crop Recommendation System
 pinned: false
 ---
 
