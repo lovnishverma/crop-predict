@@ -1,3 +1,12 @@
+---
+title: Croppredict
+emoji: 👀
+colorFrom: blue
+colorTo: pink
+sdk: docker
+pinned: false
+---
+
 # 🌱 CropSense — Crop Recommendation System
 
 A Flask web application that predicts the most suitable crop to grow based on soil nutrient parameters. Built with Scikit-learn and deployed with a clean, responsive UI.
@@ -177,3 +186,4 @@ This project is licensed under the MIT License.
 ---
 
 > Built for IndiaAI students at NIELIT Ropar · No brainrot. Just facts. 🌾
+
