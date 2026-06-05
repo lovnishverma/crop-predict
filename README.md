@@ -189,7 +189,49 @@ This project is licensed under the MIT License.
 
 ---
 
-Docs: Docs on specifying a Python version: https://render.com/docs/python-version
+## ☁️ Deployment Guides
+
+This app is designed to be easily deployed to modern cloud platforms. Below are the steps for deploying to Render and Hugging Face Spaces.
+
+### 🚀 Deploy on Render
+
+Render provides a seamless way to deploy Python web services directly from your GitHub repository.
+
+1. Create an account on [Render](https://render.com/) and go to your Dashboard.
+2. Click **New** and select **Web Service**.
+3. Connect your GitHub account and select the `crop-predict` repository.
+4. Configure the service with the following settings:
+   * **Runtime:** Python
+   * **Build Command:** `pip install -r requirements.txt`
+   * **Start Command:** `gunicorn app:app`
+5. **⚠️ Crucial Step:** Scroll down to **Environment Variables**, click **Add Environment Variable**, and add the following:
+   * **Key:** `PYTHON_VERSION`
+   * **Value:** `3.11.0`
+   *(Note: This forces Render to use Python 3.11, allowing it to instantly download pre-compiled `scikit-learn` binaries instead of taking 30+ minutes to build from source).*
+6. Click **Deploy Web Service**. Your app will be live in a few minutes!
+
+> **Docs:** Docs on specifying a Python version: https://render.com/docs/python-version
+
+### 🤗 Deploy on Hugging Face Spaces
+
+Hugging Face Spaces is an excellent platform for hosting machine learning demos using Docker.
+
+1. Create an account on [Hugging Face](https://huggingface.co/) and navigate to **Spaces**.
+2. Click **Create new Space**.
+3. Fill in the configuration:
+   * **Space name:** `croppredict` (or your preferred name)
+   * **License:** MIT
+   * **Select the Space SDK:** Choose **Docker** -> **Blank**.
+   * **Space hardware:** Free (CPU basic)
+4. Click **Create Space**.
+5. You can now upload your project files directly via the **Files** tab in your browser, or push them using Git. Ensure the following files are included in the root directory:
+   * `Dockerfile` (HF uses this to build your environment)
+   * `app.py`
+   * `requirements.txt`
+   * `crop_recommendation_model.joblib`
+   * `templates/` and `static/` folders
+6. Once the files are uploaded, Hugging Face will automatically read the `Dockerfile`, build the container, and launch your Flask app!
+
 
 > Built for IndiaAI students at NIELIT Ropar · No brainrot. Just facts. 🌾
 
