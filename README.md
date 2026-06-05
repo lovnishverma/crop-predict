@@ -18,9 +18,11 @@ A Flask web application that predicts the most suitable crop to grow based on so
 
 ---
 
-Live Demo: https://crop-predict-wgrr.onrender.com/
+**Live Demo:** https://crop-predict-wgrr.onrender.com/
 
-Alternate Link: https://lovnishverma-croppredict.hf.space/
+**Alternate Link:** https://lovnishverma-croppredict.hf.space/
+
+**HF Space:** https://huggingface.co/spaces/LovnishVerma/croppredict
 
 ## 📌 Overview
 
