@@ -158,6 +158,7 @@ scikit-learn>=1.3
 pandas>=2.0
 joblib>=1.3
 numpy>=1.24
+gunicorn>=20.1.0
 ```
 
 ---
