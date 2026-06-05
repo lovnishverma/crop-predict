@@ -189,5 +189,7 @@ This project is licensed under the MIT License.
 
 ---
 
+Docs: Docs on specifying a Python version: https://render.com/docs/python-version
+
 > Built for IndiaAI students at NIELIT Ropar · No brainrot. Just facts. 🌾
 
